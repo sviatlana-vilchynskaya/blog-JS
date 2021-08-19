@@ -7,9 +7,8 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        port: 8000,
-        hot: true,
-        historyApiFallback: true
+        static: __dirname + '/dist',
+        hot: true
     },
     plugins: [
         new HTMLPlugin ({
@@ -35,3 +34,4 @@ module.exports = {
         ]
     }
 }
+
