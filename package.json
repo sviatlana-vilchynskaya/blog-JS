@@ -1,0 +1,24 @@
+{
+  "name": "js-native-blog",
+  "version": "1.0.0",
+  "description": "js native blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sviatlana-vilchynskaya/blog-JS.git"
+  },
+  "keywords": [
+    "js",
+    "blog",
+    "javascript"
+  ],
+  "author": "Sviatlana Vilchynskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sviatlana-vilchynskaya/blog-JS/issues"
+  },
+  "homepage": "https://github.com/sviatlana-vilchynskaya/blog-JS#readme"
+}
