@@ -25,10 +25,8 @@ function submitHandler(event) {
             type: this.$el.type.value,
             ...this.form.value()
         }
-        console.log('Submit', formData)
-    } else {
-        console.warn('Form is valid')
-    }
+        this.form.clear()
 
-    
+        console.log('Submit', formData)
+    }
 }
