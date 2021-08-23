@@ -7,6 +7,10 @@
   width: 600px;
 }
 
+.center {
+  text-align: center;
+}
+
 textarea {
   resize: none;
 }
