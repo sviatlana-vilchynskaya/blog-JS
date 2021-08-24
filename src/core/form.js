@@ -40,7 +40,7 @@ export class Form {
 
 function setError($control) {
   clearError($control)
-  const error = '<p class="validation-error">Введите корректоное значение</p>'
+  const error = '<p class="validation-error">Введите корректное значение</p>'
   $control.classList.add('invalid')
   $control.insertAdjacentHTML('afterend', error)
 }
